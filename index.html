@@ -25,7 +25,7 @@
         <!--====================================
                      navbar html start
             ==================================== -->
-        <nav class="navbar navbar-expand-lg py-3">
+        <nav class="navbar navbar-expand-lg py-3  position-absolute w-100 bg-white fixed-top">
             <div class="container">
                 <a class="navbar-brand fs-1 fw-semibold dark-heading " href="#">EduCare</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,21 +41,20 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4"
-                                href="#">Courses</a>
+                                href="#course">Courses</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4" href="#">Deals</a>
+                            <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4"
+                                href="#student">Students</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4"
-                                href="#">Success</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4" href="#">About</a>
+                                href="#feedback">Feedback</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link dark-pragraph fs-6 fw-normal ms-xl-4 ms-xxl-4 ms-lg-4"
-                                href="#">Register</a>
+                                href="#footer">Contact</a>
                         </li>
                     </ul>
                     <div class="edu-btn text-center">
@@ -63,7 +62,6 @@
                             class=" primarybgColor px-4 py-2 text-white  fs-5 fw-semibold rounded-2 text-decoration-none d-inline-block ">Register</a>
                     </div>
                 </div>
-
             </div>
         </nav>
         <!--====================================
@@ -72,12 +70,13 @@
         <!--====================================
                  banner html start
             ==================================== -->
-        <section class="banner">
+        <section class="banner mt-5 pt-5 ">
             <div class="container">
-                <div id="carouselExampleCaptions" class="carousel slide rounded-2 mt-2" data-bs-ride="false">
+                <div id="carouselExampleCaptions" class="carousel slide  mt-2" data-bs-ride="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
-                            <img src="images/cover/cover-1.png" class="d-block w-100 sliderimage" alt="banner photo">
+                            <img src="images/cover/cover-1.png" class="d-block w-100 sliderimage rounded"
+                                alt="banner photo">
                             <div class="carousel-caption h-100">
                                 <div class="inner-text h-100  d-flex flex-column justify-content-center">
                                     <div>
@@ -93,7 +92,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/cover/cover-2.png" class="d-block w-100 sliderimage" alt="banner photo">
+                            <img src="images/cover/cover-2.png" class="d-block w-100 sliderimage rounded"
+                                alt="banner photo">
                             <div class="carousel-caption h-100  ">
                                 <div class="inner-text h-100  d-flex flex-column justify-content-center">
                                     <div>
@@ -109,7 +109,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/cover/cover-3.png" class="d-block w-100 sliderimage" alt="banner photo">
+                            <img src="images/cover/cover-3.png" class="d-block w-100 sliderimage rounded"
+                                alt="banner photo">
                             <div class="carousel-caption h-100  ">
                                 <div class="inner-text h-100  d-flex flex-column justify-content-center">
                                     <div>
@@ -147,7 +148,7 @@
             <!--====================================
                         courses html start
              ==================================== -->
-            <section class="courses mt-5 pt-5">
+            <section id="course" class="courses mt-5 pt-0 pt-xl-5 pt-xxl-5 pt-lg-4 ">
                 <div class="container">
                     <div class="title text-center w-75  mx-auto">
                         <h2 class="fw-semibold dark-heading fs-2">Our Popular Courses</h2>
@@ -155,7 +156,7 @@
                             chose your Desire Course.</p>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-xl-6 col-xxl-6 col-lg-6 mt-4 ">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 mt-2 mt-xl-4 mt-xxl-4 mt-lg-4 ">
                             <div class="courses-inner border border-dark border-opacity-25 rounded-2">
                                 <div class="row">
                                     <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4  ">
@@ -175,7 +176,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-xl-6 col-xxl-6 col-lg-6 mt-4 ">
@@ -198,7 +198,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-xl-6 col-xxl-6 col-lg-6 mt-4 ">
@@ -221,7 +220,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-xl-6 col-xxl-6 col-lg-6 mt-4 ">
@@ -244,7 +242,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-xl-6 col-xxl-6 col-lg-6 mt-4 ">
@@ -293,16 +290,12 @@
 
                             </div>
                         </div>
-
-
                     </div>
                     <div class="courses-btn text-center mt-5">
                         <a href=""
                             class=" primarybgColor px-4 py-2 ms-4 text-white  fs-5 fw-semibold rounded-2 text-decoration-none d-inline-block  ">More
                             Courses</a>
                     </div>
-
-
                 </div>
             </section>
             <!--====================================
@@ -312,13 +305,13 @@
                          explore html start
             ==================================== -->
 
-            <section class="explore my-5 py-5">
+            <section class="explore my-5 py-0 py-xxl-5 py-xl-5 py-lg-5 py-md-4">
                 <div class="container">
-                    <div class="explore-inner explorebg rounded-2">
+                    <div class="explore-inner explorebg rounded">
                         <div class="row">
                             <div class="col-xxl-5 col-xl-5 col-md-6 col-lg-5">
                                 <div class="explore-image h-100">
-                                    <img class="w-100 h-100" src="images/working2.jpg" alt="working">
+                                    <img class="w-100 h-100 rounded-start" src="images/working2.jpg" alt="working">
                                 </div>
                             </div>
                             <div class="col-xxl-7 col-xl-7 col-md-6 col-lg-7">
@@ -355,9 +348,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
             <!--====================================
                          explore html end
@@ -365,7 +356,7 @@
             <!--====================================
                          register html start
             ==================================== -->
-            <section class="register my-5 pt-5">
+            <section class="register my-5">
                 <div class="container">
                     <div class="register-inner primarybgColor px-xl-5  px-lg-5 py-5 rounded-2">
                         <div class="row">
@@ -390,8 +381,8 @@
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content p-4">
+                                <div class="modal-header border-0">
                                     <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
@@ -399,28 +390,33 @@
                                 <div class="modal-body ">
                                     <form>
                                         <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <label for="exampleInputEmail1"
+                                                class="form-label dark-heading fw-semibold ">Email address</label>
                                             <input type="email" class="form-control" id="exampleInputEmail1"
                                                 aria-describedby="emailHelp">
                                             <div id="emailHelp" class="form-text">We'll never share your email with
                                                 anyone else.</div>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <label for="exampleInputPassword1"
+                                                class="form-label dark-heading fw-semibold">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1"
+                                                class="form-label dark-heading fw-semibold">Confirm Password</label>
                                             <input type="password" class="form-control" id="exampleInputPassword1">
                                         </div>
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Get Our Promotional
+                                            <label class="form-check-label dark-heading" for="exampleCheck1">Get Our
+                                                Promotional
                                                 ads</label>
                                         </div>
-                                        <button type="submit"
-                                            class="btn primarybgColor text-white fw-semibold">Submit</button>
+                                        <a href=""
+                                            class=" primarybgColor text-white fw-semibold px-3 py-3 fs-6 d-inline-block text-decoration-none rounded-3"
+                                            data-bs-dismiss="modal">Sign Up</a>
                                     </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -433,7 +429,7 @@
             <!--====================================
                          students html start
             ==================================== -->
-            <section class="students pt-5">
+            <section id="student" class="students pt-0 pt-xxl-5 pt-xl-5">
                 <div class="container">
                     <div class="title">
                         <h2 class="fw-semibold dark-heading fs-2 mb-4">Meet Our Successfull <br> Students</h2>
@@ -503,14 +499,13 @@
             <!--====================================
                          feedback html start
             ==================================== -->
-            <section class="feedback mt-5 pt-5">
+            <section id="feedback" class="feedback mt-5 pt-0 pt-xxl-5 pt-xl-5 pt-lg-4">
                 <div class="container">
                     <div class="title text-center w-75  mx-auto mb-5">
                         <h2 class="fw-semibold dark-heading fs-2">Some Students Feedback</h2>
                         <p class="fw-normal fs-6 dark-pragraph">Our Most Popular Online Courses of All Time. You can
                             chose your Desire Course.</p>
                     </div>
-
                     <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -738,7 +733,7 @@
                     asked-question html start
             ==================================== -->
             <section>
-                <div class="container pt-5 mt-5">
+                <div class="container pt-0 pt-xxl-5 pt-xl-5 pt-lg-5 mt-5">
                     <div class="title text-center mx-auto">
                         <h2 class="fw-semibold dark-heading fs-2">Frequently Asked Questions</h2>
                         <p class="fw-normal fs-6 dark-pragraph">Below you will find answers to the question we get asked
@@ -748,8 +743,9 @@
                         <div class="col-xl-9 col-xxl-8 col-lg-9">
                             <div class="accordion mx-auto mt-5" id="accordionExample">
                                 <div class="accordion-item mb-3 border border-0">
-                                    <h2 class="accordion-header border rounded" id="headingOne">
-                                        <button class="accordion-button border rounded text-dark fs-6 fw-semibold "
+                                    <h2 class="accordion-header border rounded shadow-none " id="headingOne">
+                                        <button
+                                            class="accordion-button border rounded text-dark fs-6 fw-semibold shadow-none"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             What are the differences between flex box and grid?
@@ -766,9 +762,9 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item mb-3 border-0 ">
-                                    <h2 class="accordion-header border rounded" id="headingTwo">
+                                    <h2 class="accordion-header shadow-none border rounded" id="headingTwo">
                                         <button
-                                            class="accordion-button border rounded collapsed text-dark fs-6 fw-semibold"
+                                            class="accordion-button border shadow-none rounded collapsed text-dark fs-6 fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                             aria-expanded="false" aria-controls="collapseTwo">
                                             What are the differences between Bootstrap and Tailwind?
@@ -785,9 +781,9 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item mb-3 border-0">
-                                    <h2 class="accordion-header border rounded" id="headingThree">
+                                    <h2 class="accordion-header shadow-none border rounded" id="headingThree">
                                         <button
-                                            class="accordion-button border rounded collapsed text-dark fs-6 fw-semibold"
+                                            class="accordion-button shadow-none border rounded collapsed text-dark fs-6 fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
                                             What is css box model?
@@ -804,9 +800,9 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item mb-3 border-0">
-                                    <h2 class="accordion-header border rounded" id="headingFour">
+                                    <h2 class="accordion-header shadow-none border rounded" id="headingFour">
                                         <button
-                                            class="accordion-button border rounded collapsed text-dark fs-6 fw-semibold"
+                                            class="accordion-button shadow-none border rounded collapsed text-dark fs-6 fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
                                             What is semantic tag?
@@ -866,7 +862,7 @@
              ==================================== -->
         </main>
         <!-------------main part end------------>
-        <footer class="bg-black text-center pt-5 pb-4 mt-5">
+        <footer id="footer" class="bg-black text-center py-xl-5 py-xxl-5 py-lg-5 pt-5 pb-4 mt-5">
             <div class="container">
                 <a class="fs-1 text-white fw-semibold mt-5 text-decoration-none" href="">Edu Care</a>
                 <address class="fs-6 fw-normal  white-pragraph mb-2">Office 41, Zawaya Buildin, Ghala Muscat, <br>

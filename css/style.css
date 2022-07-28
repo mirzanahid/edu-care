@@ -35,8 +35,15 @@ body {
 .socialbg {
     background-color: #242424;
 }
-
+.starcolro{
+    color: #FBBF24;
+}
 /* ===========color css end============*/
+/* ===========size css end============*/
+.feedback-width{
+    width: 0;
+    height: 0;
+}
 /* ===========midia query css end============*/
 @media only screen and (max-width: 575.98px) {
     .sliderimage{

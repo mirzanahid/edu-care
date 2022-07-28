@@ -1,0 +1,45 @@
+
+/* ===========fonts css start============*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===========fonts css end============*/
+/* ===========color css start============*/
+.primaryColor {
+    color: #289BDE;
+}
+
+.dark-heading1 {
+    color: #4A4A4A;
+}
+
+.dark-heading {
+    color: #1D1D1D;
+}
+
+.dark-pragraph {
+    color: #777777;
+}
+
+.white-pragraph {
+    color: #F4F4F4;
+}
+.explorebg{
+    background: #F4FAFD;
+}
+.primarybgColor {
+    background-color: #289BDE;
+}
+
+.socialbg {
+    background-color: #242424;
+}
+
+/* ===========color css end============*/
+/* ===========midia query css end============*/
+@media only screen and (max-width: 575.98px) {
+    .sliderimage{
+        height: 350px;
+    }
+}
